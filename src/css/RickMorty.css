@@ -1,0 +1,30 @@
+.char-info{
+    border-radius: 20px;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px dashed black;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px auto;
+    position: relative;
+}
+
+.char-male{
+    border:3px dashed #0066ff;
+    background-color: #0066ff80;
+}
+
+.char-female{
+    border:3px dashed #ff56cc;
+    background-color: #ff56cc80;
+}
+
+.char-pagination{
+    position: absolute;
+    top: 20px;
+}
+
+.char-pagination--previous{left: 20px;}
+.char-pagination--next{right: 20px;}
